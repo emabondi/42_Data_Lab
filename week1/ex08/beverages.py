@@ -8,10 +8,7 @@ class HotBeverage:
 		return (d)
 
 	def __str__(self):
-		print(f"name : {self.name}")
-		print(f"price : {self.price}")
-		print(f"description : {self.description()}")
-		#return ("")
+		return (f"name : {self.name}\nprice : {self.price}\ndescription : {self.description()}")
 
 if __name__=="__main__":
 	a = HotBeverage()
