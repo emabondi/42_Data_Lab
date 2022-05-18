@@ -6,7 +6,7 @@ d={
 }
 if __name__=="__main__":
 	while d:
-		minimo = '2000'
+		minimo = '2022'
 		for key, values in d.items():
 			if values < minimo:
 				minimo = values
